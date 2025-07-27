@@ -1,0 +1,17 @@
+2025-07-27 14:02:19 | INFO | app | request_id=3ff2f969-e53a-483b-b529-8f2419a9a118 method=POST path=/jira/webhook headers={'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.29.0', 'accept': '*/*', 'postman-token': '5904e133-0734-425b-a81f-350697a74b92', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '114'} body={
+    "message": "hello",
+    "metadata": {
+        "user": "alice",
+        "token": "****"
+    }
+}
+2025-07-27 14:02:19 | INFO | app | request_id=3ff2f969-e53a-483b-b529-8f2419a9a118 status=404 duration_ms=2.36
+2025-07-27 14:02:46 | INFO | app | request_id=c9e71b01-41cd-4066-a100-01ee72985700 method=POST path=/jira/webhook headers={'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.29.0', 'accept': '*/*', 'postman-token': '2449c7b0-3415-4ef2-92b9-71345372dcfd', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '114'} body={
+    "message": "hello",
+    "metadata": {
+        "user": "alice",
+        "token": "****"
+    }
+}
+2025-07-27 14:02:46 | INFO | app | request_id=02494031-4ff7-47e5-927c-b0625fc4f0d5 payload={"message":"hello","metadata":{"user":"alice","token":"****"}}
+2025-07-27 14:02:46 | INFO | app | request_id=c9e71b01-41cd-4066-a100-01ee72985700 status=200 duration_ms=5.18
