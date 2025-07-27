@@ -1,2 +1,2 @@
 .venv/
-logs/app.log
+/logs/app.log

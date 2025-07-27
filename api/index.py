@@ -105,7 +105,7 @@ async def health_check():
 
 
 # Your original webhook endpoint
-@app.post("/jira/webhood")
+@app.post("/jira/webhook")
 async def echo(payload: Payload, request: Request):
     request_id = request.headers.get("X-Request-ID", str(uuid.uuid4()))
     logger.info("request_id=%s payload=%s", request_id, mask_sensitive(payload.model_dump_json()))
